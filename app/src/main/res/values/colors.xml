@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#2f333f</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#fff</color>
+    <color name="Red">#ff4444</color>
+    <color name="Green">#00ff00</color>
+    <color name="Blue">#ff0099cc</color>
+    <color name="Gray">#BEBEBE</color>
+
+    android:textColor="@color/white"
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    //หน้าตาของ Popup ออกแบบหน้านี้เลย
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="475dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        >
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textColor="@color/white"
+            android:text="X"
+            android:textSize="20dp"
+            android:id="@+id/buttonClose"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:background="@drawable/cerclebackground"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="จุดที่ 2"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="อุณหภูมิ \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t องศา"
+            android:textSize="18dp"
+            android:id="@+id/tvTemp2"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ความชื้น \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t เปอร์เซ็น"
+            android:textSize="18dp"
+            android:id="@+id/tvMoist2"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ฝุ่น pm1 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t um/"
+            android:textSize="18dp"
+            android:id="@+id/tvPm1_2"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ฝุ่น pm2.5 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t um/"
+            android:textSize="18dp"
+            android:id="@+id/tvPm2_5_2"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ฝุ่น pm10 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t um/"
+            android:textSize="18dp"
+            android:id="@+id/tvPm10_2"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
